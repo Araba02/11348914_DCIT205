@@ -38,6 +38,15 @@ width: 280px;
     margin-left: 2.5rem;
 
 }
+.navbar a:hover{
+    font-size: 1.15rem;
+    color:#BD9C6C;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+
+}
+
 
 .overlay{
     background: rgba(22, 28, 43, 0.575);
@@ -65,4 +74,69 @@ min-height: 80vh;
 text-align: center;
 font-weight: 500;
 margin-bottom: 20px;
+}
+.about{
+    display: grid;
+    place-items: center;
+min-height: 60vh;
+width: 100%;
+background: #2C2A58;
+}
+.row{
+    width: 100%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+
+}
+.row .left{
+    overflow: hidden;
+}
+.row .left img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 7px;
+}
+.row .right{
+    display: flex;
+    align-items: center;
+}
+.row .right .message{
+    padding-left: 20px;
+}
+.row .right .message h3{
+    padding-left: 20px;
+    font-weight: 550;
+    font-size: 36px;
+    color:#e7e5e5;
+    margin-bottom: 20px;
+}
+.row .right .message p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    color: #d3d2d2;
+}
+.row .right .message p a{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    color: #d3d2d2;
+}
+@media (max-width:991px) {
+    .row .right .message{
+        padding-left: 20px;
+    }
+}
+@media (max-width:768px)
+{
+    .row{
+        width: 90%;
+        grid-template-columns:  1fr;
+    
+    }
 }
