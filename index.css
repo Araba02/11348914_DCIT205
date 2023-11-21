@@ -257,6 +257,7 @@ margin: 20px 0px;
     background: #2C2A58;
     background-size: cover;
     padding:10px;
+    margin-bottom: 20px;
 }
 .achieve_card{
     width: 50%;
@@ -280,5 +281,71 @@ margin: 20px 0px;
         line-height: 1.5;
         color:#e7e5e5;
     } 
+    .next_about{
+        display: grid;
+        place-items: center;
+    min-height: 60vh;
+    width: 100%;
+    
+    }
+    .next_row{
+        width: 100%;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px 30px;
+    
+    }
+    .next_row .next_left{
+        overflow: hidden;
+    }
+    .next_row .next_left img{
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 7px;
+    }
+    .next_row .next_right{
+        display: flex;
+        align-items: center;
+    }
+    .next_row .right .message{
+        padding-left: 20px;
+    }
+    .next_row .next_right .next_message h3{
+        padding-left: 20px;
+        font-weight: 550;
+        font-size: 36px;
+        color:#2C2A58;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .next_row .next_right .next_message p{
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 15px;
+        color: #2C2A58;
+    }
+    .next_row .next_right .next_message p a{
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 15px;
+        color: #2C2A58;
+    }
+    @media (max-width:991px) {
+        .next_row .next_right .next_message{
+            padding-left: 20px;
+        }
+    }
+    @media (max-width:768px)
+    {
+        .next_row{
+            width: 90%;
+            grid-template-columns:  1fr;
+        
+        }
+    }
 
 
