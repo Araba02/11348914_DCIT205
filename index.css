@@ -248,7 +248,37 @@ display:flex;
 margin: 20px 0px;
     }
 }
-
-
+.achieve{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    background: #2C2A58;
+    background-size: cover;
+    padding:10px;
+}
+.achieve_card{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer ;
+}
+.achieve_card h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    color:#f1f1f1;
+    }
+ .achieve_card p{
+        font-size: 17px;
+        margin-bottom: 15px;
+        line-height: 1.5;
+        color:#e7e5e5;
+    } 
 
 
