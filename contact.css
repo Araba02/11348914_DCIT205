@@ -111,7 +111,7 @@ margin-bottom: 20px;
     text-align: center;
     background: #2C2A58;
     height: 320px;
-  
+
 }
 .card{
     width: 50%;
@@ -141,19 +141,7 @@ color:#f1f1f1;
     line-height: 1.5;
     color:#f1f1f1;
 } 
-.button{
-    font-size: 15px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #2C2A58;
-    padding: 8px 12px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-}
-.button:hover{
-    background-color: #2c287a;
-    transition: 0.4s ease;
-}
+
 @media screen and (max-width: 940px){
     .services{
         display: flex;
@@ -167,104 +155,99 @@ margin: 20px 0px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contact-in{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 0.2px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #666;
+}
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+   
+}
+.contact-map iframe{
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.contactForm
+{
+    width: 80%;
+    height: auto;
+    flex: 50%;
+    background:#fff;
+
+}
+
+.contactForm h2
+{
+    font-size: 30px;
+    color: #2C2A58;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-weight: 550;
+
+}.contactForm  .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactForm  .inputBox input,
+.contactForm  .inputBox textarea
+
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+.contactForm  .inputBox input:focus ~ span,
+.contactForm  .inputBox input:valid ~ span,
+.contactForm  .inputBox textarea:focus ~ span,
+.contactForm  .inputBox textarea:focus ~ span
+{
+    color: #2C2A58;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background:#2C2A58 ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
 
 
 
