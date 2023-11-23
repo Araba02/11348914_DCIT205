@@ -17,7 +17,7 @@ body {
 /* nav bar*/
 .main{
     min-height: 80vh;
-    background: url(grp.jpg) no-repeat;
+    background: url(page2.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 50px;
@@ -78,7 +78,7 @@ body {
 
 
 .overlay{
-    background: rgba(22, 28, 43, 0.575);
+    background: rgba(0, 0, 0, 0.575);
 min-height: 80vh;
     padding: 10px;
 }
@@ -494,4 +494,3 @@ footer ul li a:hover{
                 width: 100%;
             }
         }
-        
