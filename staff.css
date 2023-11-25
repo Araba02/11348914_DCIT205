@@ -66,18 +66,218 @@ body {
       text-align: left;
     }
   }
+  .main{
+    min-height: 85vh;
+    background: url(professor.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    }
+
+  .overlay{
+    background: rgba(0, 0, 0, 0.575);
+min-height: 85vh;
+    padding: 10px;
+}
+
+.content{
+    position:absolute;
+    top: 38%;
+    left: 30%;
+    transform: translate(-40%, -40%);
+    color:rgb(221, 218, 218);
+    text-align: center;
+    
+}
+
+.content h3{
+    font-size: 40px;
+    text-align: center;
+   
+}
+.content h3 p{
+    font-size:17px;
+text-align: center;
+font-weight: 500;
+margin-bottom: 20px;
+font-style: italic;
+}
+
+  
+.next_about{
+    display: grid;
+    place-items: center;
+min-height: 60vh;
+width: 100%;
+
+}
+.next_row{
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+
+}
+.next_row .next_left{
+    overflow: hidden;
+}
+.next_row .next_left img{
+    height: 90%;
+    width: 60%;
+    border-radius: 50%;
+    border: 6px solid #fff;
+ 
+}
+.next_row .next_right{
+    display: flex;
+    align-items: center;
+}
+.next_row .right .message{
+    padding-left: 20px;
+}
+.next_row .next_right .next_message h3{
+    padding-left: 15px;
+    font-weight: 550;
+    font-size: 36px;
+    color:#2C2A58;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.next_row .next_right .next_message h4{
+font-size: 17px;
+letter-spacing: 1.5px;
+color:#0f0e1e;
+line-height: 26px;
+padding-bottom: 10px;
+margin-left: 60px;
+}
+.next_row .next_right .next_message p{
+   
+    line-height: 26px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    font-size: 15px;
+
+    line-height: 1.5;
+    color:#404040;
+}
+
+@media (max-width:991px) {
+    .next_row .next_right .next_message{
+        padding-left: 20px;
+    }
+}
+@media (max-width:768px)
+{
+    .next_row{
+        width: 90%;
+        grid-template-columns:  1fr;
+    
+    }
+}
 
 
 
 
+ 
+   
+.team-section{
+    width: 100%;
+}
+.team-section .container{
+    margin: auto;
+}
+.team-section .container .row{
+    width: 60%;
+    margin: auto;
+}
+.team-section .container .row .title{
+    text-align: center;
+    margin-top: 50px;
+}
+.team-section .container .row .title h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #2C2A58;
+}
+
+.team-section .container .row .title p{
+font-size: 18px;
+font-family: sans-serif;
+margin: 30px 0px;
+color: #787878;
+}
+.team-section .container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:40px;
+    margin-top: 50px;
+}
+
+.team-section .container .team-card .card{
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.team-section .container .team-card .card:hover{
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+.team-section .container .team-card .card .image-section img{
+    height: 90%;
+    width: 60%;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-left: 50px;
+ 
+}
+.team-section .container .team-card .card .content1{
+    width:100%;
+    text-align: center;
+}
+.team-section .container .team-card .card .content1 h3{
+    font-size: 25px;
+    margin-top: 5px;
+    letter-spacing: 1.5px;
+    color:#2C2A58;
+}
+.team-section .container .team-card .card .content1 h4{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color:#0f0e1e;
+}
+.team-section .container .team-card .card .content1 p{
+    font-size: 13px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color:#404040;
+}
 
 
 
+@media screen and (max-width:900px){
+    .team-section .container .team-card{
+     
+        grid-template-columns: repeat(2, 1fr);
+        
+    }   
+}
 
-
-
-
-
+@media screen and (max-width:768px){
+    .team-section .container .team-card{
+     
+        grid-template-columns:1fr;
+        
+    }   
+}
 
 
    /*============ FOOTER ===============*/

@@ -36,7 +36,7 @@
         <a href="contact.html">Contact</a>
         <a href="">Library</a>
         <a href="events.html" class="active">Events</a>
-        <a href="index.html" >Home</a>
+        <a href="index.html">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="uil uil-bars"></i>
         </a>
@@ -44,235 +44,227 @@
 
       <!--END OF HEADER-->
 
+      <script>
+        var countDownDate = new Date("Dec 6, 2023 00:00:00").getTime();
+        var x = setInterval(function () {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+          document.getElementById("days").innerHTML = days;
+          document.getElementById("hours").innerHTML = hours;
+          document.getElementById("minutes").innerHTML = minutes;
+          document.getElementById("seconds").innerHTML = seconds;
+        }, 1000);
+      </script>
 
-<script>
-    var countDownDate = new Date("Dec 6, 2023 00:00:00").getTime();
-    var x = setInterval(function(){
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-document.getElementById("days").innerHTML = days;
-document.getElementById("hours").innerHTML = hours;
-document.getElementById("minutes").innerHTML = minutes;
-document.getElementById("seconds").innerHTML = seconds;
-    },1000);
-</script>
-
-
-
-
-<div class="head">
-    <div class="overlay">
-    
-<div class="container-events">
-    <div class="content">
-<p>[Webinar]</p>
-<h1>Newest Technologies For Cyber Security</h1>
-<div class="launch-time">
-    <div>
-        <p id="days">00</p>
-        <span>Days</span>
-    </div>
-    <div>
-        <p id="hours">00</p>
-        <span>Hours</span>
-    </div>
-    <div>
-        <p id="minutes">00</p>
-        <span>Minutes</span>
-    </div>
-    <div>
-        <p id="seconds">00</p>
-        <span>Seconds</span>
-    </div>
-</div>
-</div>
-</div>
-    </div>
-  </div>
-
-
-
-
-
-  <div class="section">
-    <div class="title">
-      <p>Why Should You Join Webinar?</p>
-    </div>
-    <div class="services">
-      <div class="card">
-        <div class="icon">
-          <i class="fas fa-server" style="font-size: 24px"></i>
-        </div>
-        <h2>Server Protection</h2>
-        <p>
-            Strengthen your server's defenses against cyber threats and unauthorized access, ensuring robust security for your digital assets.
-        </p>
-
-      </div>
-
-      <div class="card">
-        <div class="icon">
-          <i class="fas fa-database" style="font-size: 24px"></i>
-        </div>
-        <h2>Database Protection</h2>
-        <p>
-            Explore best practices to secure your databases, safeguarding sensitive information and preventing unauthorized breaches.
-        </p>
-  
-      </div>
-
-      <div class="card">
-        <div class="icon">
-          <i class="fa fa-globe" style="font-size: 24px"></i>
-        </div>
-        <h2>Multi-Language Support</h2>
-        <p>
-            Explore the synergy of cybersecurity and multilanguage support, uncovering strategies to secure diverse programming languages 
-        </p>
-       
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="next_about">
-    <div class="next_row">
-      <div class="next_right">
-        <div class="next_message">
-            <p>About your Host</p>
-          <h3>Mark Atta Mensah</h3>
-          <p>
-            
-Introducing Mark Atta Mensah, our distinguished host for the upcoming webinar! A seasoned professional in artificial intelligence, machine learning, and data analytics, Mr. Mensah stands out for his innovative teaching approach. With a focus on project-based learning, he empowers students to apply theoretical concepts to real-world scenarios, ensuring the development of practical skills highly sought after in today's job market. Join us for an insightful session with an industry expert!.
-          </p>
-          <p><a href="">Learn More ></a></p>
+      <div class="head">
+        <div class="overlay">
+          <div class="container-events">
+            <div class="content">
+              <p>[Webinar]</p>
+              <h1>Newest Technologies For Cyber Security</h1>
+              <div class="launch-time">
+                <div>
+                  <p id="days">00</p>
+                  <span>Days</span>
+                </div>
+                <div>
+                  <p id="hours">00</p>
+                  <span>Hours</span>
+                </div>
+                <div>
+                  <p id="minutes">00</p>
+                  <span>Minutes</span>
+                </div>
+                <div>
+                  <p id="seconds">00</p>
+                  <span>Seconds</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="next_left">
-        <img src="markatta.png" alt="" />
-      </div>
-    </div>
-  </div>
 
-
-
-  <div class="section2">
-    <div class="title2">
-        <p>Our Speakers</p>
-      </div>
-    <div class="services2">
-        
-      <div class="card2">
-        <div class="icon2">
-          <img src="Zuckerberg.jpeg" alt="">
+      <div class="section">
+        <div class="title">
+          <p>Why Should You Join Webinar?</p>
         </div>
-        <h2>Mark Zuckerberg</h2>
-        <p>
-            Mark Zuckerberg is the CEO of Meta Platforms, known for co-founding Facebook and pioneering work on the metaverse.
-        </p>
-      </div>
+        <div class="services">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-server" style="font-size: 24px"></i>
+            </div>
+            <h2>Server Protection</h2>
+            <p>
+              Strengthen your server's defenses against cyber threats and
+              unauthorized access, ensuring robust security for your digital
+              assets.
+            </p>
+          </div>
 
-      <div class="card2">
-        <div class="icon2">
-            <img src="Elon_.jpeg" alt="">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-database" style="font-size: 24px"></i>
+            </div>
+            <h2>Database Protection</h2>
+            <p>
+              Explore best practices to secure your databases, safeguarding
+              sensitive information and preventing unauthorized breaches.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="icon">
+              <i class="fa fa-globe" style="font-size: 24px"></i>
+            </div>
+            <h2>Multi-Language Support</h2>
+            <p>
+              Explore the synergy of cybersecurity and multilanguage support,
+              uncovering strategies to secure diverse programming languages
+            </p>
+          </div>
         </div>
-        <h2>Elon Musk</h2>
-        <p>
-            Elon Musk is a renowned entrepreneur behind companies like Tesla and SpaceX, contributing to advancements in electric vehicles and space exploration.
-        </p>
       </div>
 
-      <div class="card2">
-        <div class="icon2">
-            <img src="Bill.jpeg" alt="">
+      <div class="next_about">
+        <div class="next_row">
+          <div class="next_right">
+            <div class="next_message">
+              <p>About your Host</p>
+              <h3>Mark Atta Mensah</h3>
+              <p>
+                Introducing Mark Atta Mensah, our distinguished host for the
+                upcoming webinar! A seasoned professional in artificial
+                intelligence, machine learning, and data analytics, Mr. Mensah
+                stands out for his innovative teaching approach. With a focus on
+                project-based learning, he empowers students to apply
+                theoretical concepts to real-world scenarios, ensuring the
+                development of practical skills highly sought after in today's
+                job market. Join us for an insightful session with an industry
+                expert!.
+              </p>
+              <p><a href="">Learn More ></a></p>
+            </div>
+          </div>
+          <div class="next_left">
+            <img src="markatta.png" alt="" />
+          </div>
         </div>
-        <h2>Bill Gates</h2>
-        <p>
-        
-Bill Gates is a co-founder of Microsoft and a notable philanthropist through the Bill & Melinda Gates Foundation.
-        </p>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-  <!--FOOTER STARTS-->
-  <footer>
-    <div class="container footer_container">
-      <div class="footer_1">
-        <a href="home.html" class="footer_logo">
-          <img src="ug.png" alt="">
-        </a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur
-        </p>
       </div>
 
-      <div class="footer_2">
-        <h4>Permalinks</h4>
-        <ul class="permalinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="contact.html">Research groups</a></li>
-        </ul>
-      </div>
-      <div class="footer_3">
-        <h4>Privacy</h4>
-        <ul class="privacy">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms and Conditions</a></li>
-          <li><a href="#">Refund Policy</a></li>
-        </ul>
-      </div>
-      <div class="footer_4">
-        <h4>Contact Us</h4>
-        <div>
-          <p>+233 501 382 035</p>
-          <p>dcs@ug.edu.gh</p>
+      <div class="section2">
+        <div class="title2">
+          <p>Our Speakers</p>
         </div>
-        <ul class="footer_socials">
-          <li>
-            <a href="#"><i class="uil uil-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="uil uil-instagram-alt"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="uil uil-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="uil uil-linkedin-alt"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer_copyright">
-      <small>Copyright &copy; 2023</small>
-    </div>
-  </footer>
+        <div class="services2">
+          <div class="card2">
+            <div class="icon2">
+              <img src="Zuckerberg.jpeg" alt="" />
+            </div>
+            <h2>Mark Zuckerberg</h2>
+            <p>
+              Mark Zuckerberg is the CEO of Meta Platforms, known for
+              co-founding Facebook and pioneering work on the metaverse.
+            </p>
+          </div>
 
-  <script src="main.js"></script>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
-</body>
+          <div class="card2">
+            <div class="icon2">
+              <img src="Elon_.jpeg" alt="" />
+            </div>
+            <h2>Elon Musk</h2>
+            <p>
+              Elon Musk is a renowned entrepreneur behind companies like Tesla
+              and SpaceX, contributing to advancements in electric vehicles and
+              space exploration.
+            </p>
+          </div>
+
+          <div class="card2">
+            <div class="icon2">
+              <img src="Bill.jpeg" alt="" />
+            </div>
+            <h2>Bill Gates</h2>
+            <p>
+              Bill Gates is a co-founder of Microsoft and a notable
+              philanthropist through the Bill & Melinda Gates Foundation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--FOOTER STARTS-->
+      <footer>
+        <div class="container footer_container">
+          <div class="footer_1">
+            <a href="home.html" class="footer_logo">
+              <img src="ug.png" alt="" />
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+
+          <div class="footer_2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="contact.html">Research groups</a></li>
+            </ul>
+          </div>
+          <div class="footer_3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+              <p>+233 501 382 035</p>
+              <p>dcs@ug.edu.gh</p>
+            </div>
+            <ul class="footer_socials">
+              <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          <small>Copyright &copy; 2023</small>
+        </div>
+      </footer>
+
+      <script src="main.js"></script>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+    </div>
+  </body>
 </html>
