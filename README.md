@@ -92,3 +92,10 @@ Special thanks to the supportive faculty, peers, and the CS department for foste
 ![Event Page](screenshots/7.png)
 ![Event Page](screenshots/8.png)
 ![Event Page](screenshots/9.png)
+
+
+![Library Page](screenshots/10.png)
+![Library Page](screenshots/11.png)
+![Library Page](screenshots/12.png)
+![Library Page](screenshots/13.png)
+![Library Page](screenshots/14.png)
