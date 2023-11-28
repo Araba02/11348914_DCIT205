@@ -107,3 +107,9 @@ Special thanks to the supportive faculty, peers, and the CS department for foste
 ![Student Page](screenshots/18.png)
 ![Student Page](screenshots/19.png)
 ![Student Page](screenshots/20.png)
+
+![Staff Page](screenshots/21.png)
+![Staff Page](screenshots/22.png)
+![Staff Page](screenshots/23.png)
+![Staff Page](screenshots/24.png)
+
