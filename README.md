@@ -122,3 +122,7 @@ Special thanks to the supportive faculty, peers, and the CS department for foste
 ![Undergraduate Page](screenshots/29.png)
 ![Undergraduate Page](screenshots/30.png)
 ![Undergraduate Page](screenshots/31.png)
+
+![Postgraduate Page](screenshots/32.png)
+![Postgraduate Page](screenshots/33.png)
+![Postgraduate Page](screenshots/34.png)
