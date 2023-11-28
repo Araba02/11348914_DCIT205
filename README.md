@@ -79,7 +79,7 @@ This project provided valuable insights into web development, GitHub usage, and 
 Special thanks to the supportive faculty, peers, and the CS department for fostering an environment conducive to exploration and learning.
 
 ## Screenshots
-![](screenshots/1.png)
+
 
 
 ![Home Page](screenshots/1.png)
@@ -87,3 +87,8 @@ Special thanks to the supportive faculty, peers, and the CS department for foste
 ![Home Page](screenshots/3.png)
 ![Home Page](screenshots/4.png)
 ![Home Page](screenshots/5.png)
+
+![Event Page](screenshots/6.png)
+![Event Page](screenshots/7.png)
+![Event Page](screenshots/8.png)
+![Event Page](screenshots/9.png)
